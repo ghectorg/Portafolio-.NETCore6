@@ -1,0 +1,23 @@
+﻿@model HomeIndex
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<h1>Ejemplos de Servcios</h1>
+
+<div> 
+    Guid Transient: <b>@Model.EjemploGUID_1.Transitorio</b>
+</div>
+<div> 
+    Guid Scoped: <b>@Model.EjemploGUID_1.Delimitado</b>
+</div>
+<div> 
+    Guid : <b>@Model.EjemploGUID_1.Unico</b>
+</div>*@
+
+<partial name="_Presentation" />
+
+<partial name="_Skills" />
+
+<partial name="_SeccionProyectos" model="Model.Proyectos"/>

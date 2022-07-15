@@ -1,0 +1,97 @@
+﻿
+.welcome {
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apues {
+    text-align: center;
+    vertical-align: middle;
+}
+
+    .apues h1, h2 {
+        margin-bottom: 15px;
+    }
+#foto {
+    width: 200px;
+    margin: 2rem 0;
+    border-radius: 50%;
+}
+
+#logoDotnet {
+    width: 200px;
+}
+
+.presentation {
+    height: 55vh;
+    text-align: center;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 4em 0 4em;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 30px;
+}
+
+    .skills .column-backend {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 15px;
+        background: rgba(7, 233, 195, 0.9);
+        text-align: center;
+        box-shadow: 0 10px 10px 0 lightblue;
+    }
+
+        .skills .column-backend ul {
+            list-style: none;
+        }
+
+    .skills .column-frontend {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 15px;
+        background: rgba(7, 233, 195, 0.9);
+        text-align: center;
+        box-shadow: 0 10px 10px 0 lightblue;
+    }
+
+        .skills .column-frontend ul {
+            list-style: none;
+        }
+
+/*------------------Styles For Deskop ----------------*/
+@media (min-width: 768px) {
+    #foto {
+        width: 250px;
+    }
+
+    #logoDotnet {
+        width: 350px;
+    }
+}

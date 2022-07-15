@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Proyecto>
+
+
+@if (Model is not null)
+{
+    <div class="cont-title">
+        <h1>Mis trabajos más recientes</h1>
+        <p>Aquí puedes ver algunos de mis trabajos más recientes.</p>
+    </div>
+
+    <partial name="_ListadoProyectos" model="Model"/>
+}

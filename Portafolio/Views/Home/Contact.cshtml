@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<h1>Formulario de contacto</h1>
+
+
+<form method="post" asp-controller="Home" asp-action="Contact">
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Name"/>
+    <label for="email">Correo</label>
+    <input type="email" id="email" name="email" placeholder="correo@gmail.com"/>
+    <label for="mensaje">Mensaje</label>
+    <textarea type="tel" id="mensaje" name="mensaje" rows="3"></textarea>
+    <button type="submit" >Enviar</button>
+</form>
